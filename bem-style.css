@@ -1,0 +1,30 @@
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.produto {
+  width: 200px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+.produto__imagem {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.produto__nome {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+.produto__descricao {
+  font-size: 0.9em;
+  color: #666;
+}
+
+/*# sourceMappingURL=bem-style.css.map */
